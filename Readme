@@ -1,0 +1,21 @@
+#Readme
+
+Compilation:
+Open the project in any dc terminal after ssh-ing.
+
+cd Proj2/src
+javac -cp ../bin/ *.java
+
+--Running the program:
+Open 12 terminals and run the following commands: <nodeid> = [1,2,..12]
+
+cd Proj2/bin
+java Proj2 <nodeid> ../config.txt
+
+
+Output:
+The following txt files can be found in the Proj2/bin folder after the execution of the above programs:
+
+Messages.txt - Log of total no of messages exchanged by every node
+<nodeid>Log.txt - Log information of elapsed time, no of messages exchanged in each CS execution.
+CSENTRY.txt- The file in which every client writes while entering the CS.
