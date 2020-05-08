@@ -25,6 +25,7 @@ public class Application extends Thread{
 	long messageTS, currentTS;
 	Socket socket;
 	BufferedReader BR;
+	String reader;
 	Mutex RA;
 	IOHandler IOH;
 	
