@@ -12,7 +12,7 @@ public class Receiver extends Thread
 {
 	int nodeID, NUMNODES;
 	IOHandler IOH;
-	
+	int ID;	
 	Receiver(int nodeID, int NUMNODES, IOHandler IOH)
 	{
 		super();

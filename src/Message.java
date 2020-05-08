@@ -4,6 +4,7 @@ public class Message implements Serializable {
 
     int source;
     long time;
+    int name;
     String type;
 
     public Message(String type, int source, long time) {

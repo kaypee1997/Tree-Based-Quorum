@@ -11,7 +11,7 @@ public class quorom
     int val;
     quorom left;
     quorom right;
-   
+    String firstName;   
     quorom(int val, quorom left, quorom right) {
     this.val = val;
     this.left = left;
