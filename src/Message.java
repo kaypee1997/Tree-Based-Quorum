@@ -6,7 +6,7 @@ public class Message implements Serializable {
     long time;
     int name;
     String type;
-	String CherryPick;
+	String CherryPick1;
     public Message(String type, int source, long time) {
         this.source = source;
         this.time = time;
